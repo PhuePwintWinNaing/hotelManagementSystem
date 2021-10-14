@@ -1,0 +1,492 @@
+#top-pane-style{
+	-fx-font-weight:bolder;
+	-fx-font-size:15;
+	-fx-text-alignment:center;
+	-fx-background-color:#e5e0e3;
+	
+}
+#title{
+	-fx-text-fill:#0b62a3;
+	-fx-font-size:22;
+	-fx-font-weight:bolder;
+	
+}
+.active-label{
+	-fx-background-color:#e2ecff;
+	-fx-text-fill:white;
+	-fx-font-weight:bolder;
+	-fx-font-size:18;
+	-fx-effect:dropshadow(three-pass-box,grey,0,0,0,0);
+}
+active-label-report{
+	fx-background-color:#0b62a3;
+	-fx-text-fill:white;
+	-fx-font-weight:bolder;
+	-fx-font-size:18;
+	
+}
+
+#active-user{
+	-fx-text-fill:#0b62a3;
+}
+#dashboard{
+	-fx-font-size:16;
+	-fx-font-weight:bolder;
+	-fx-text-fill:#0b62a3;
+	-fx-font-family:Times New Roman;
+	
+}
+.error{
+	-fx-text-fill:red;
+	-fx-font-weight:bolder;
+	-fx-font-family:Times New Roman;
+}
+.left-pane{
+	-fx-padding: 5 15;
+	-fx-effect:dropshadow(three-pass-box,grey,10,0,0,10);
+}
+
+.left-pane-option{
+	-fx-padding:2 5;
+	-fx-text-fill:#0b62a3;
+	-fx-font-weight:bolder;
+	-fx-font-size:14;
+	
+	
+}
+.left-pane-option:selected{
+	-fx-text-fill:orange;
+	-fx-font-size:18;
+	-fx-font-family:bolder;
+}
+
+
+.center-box{
+	-fx-background-color:#D6EAF8;
+	-fx-font-weight:bolder;
+	-fx-font-size:14;
+	-fx-border-radius:20;
+	-fx-text-fill:#727676;
+	-fx-alignment:center;
+	-fx-effect:dropshadow(three-pass-box,grey,5,0,0,5);
+}
+.main-register-pane{
+	-fx-background-color:#D6EAF8;
+	-fx-font-family:Times New Roman;
+	-fx-text-fill:#505072;
+}
+.field-focus:hover{
+	-fx-background-color:#f6e0ce;
+}
+.err{
+	-fx-text-fill:red;
+	-fx-font-weight:lighter;
+	-fx-font-size:10;
+}
+.btn{
+	-fx-text-fill:white;
+	-fx-font-size:16;
+	-fx-font-weight:bold;
+	-fx-padding:7 15;
+}
+.success-msg{
+	-fx-text-fill:white;
+	-fx-font-weight:bolder;
+	-fx-font-size:20;
+	-fx-font-family:Times New Roman;
+}
+.btn-register{
+	 -fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Arial";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 12px;
+    -fx-padding: 10 20 10 20;
+	
+}
+.btn-register:hover{
+	-fx-background-color:green;
+}
+.btn-clear{
+	 -fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Arial";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 12px;
+    -fx-padding: 10 20 10 20;
+}
+.btn-clear:hover{
+	-fx-background-color:red;
+}
+.staff-name{
+	-fx-alignment:center;
+	-fx-padding:5;
+}
+#main-reservation{
+	
+	-fx-background-color:#D6EAF8;
+}
+.header-pane{
+	-fx-background-color:#f9dcb8;
+	-fx-font-weight:bolder;
+	-fx-font-family:Times New Roman;
+	-fx-text-fill:#727676;
+	-fx-font-size:16;
+	
+}
+.check-in-top-pane{
+	-fx-background-color:#f9dcb8;
+	-fx-font-weight:bolder;
+	-fx-font-family:Times New Roman;
+	-fx-text-fill:#727676;
+	-fx-font-size:16;
+	-fx-padding:15;
+}
+
+.btn-reserve-save{
+     -fx-background-color: #f9dcb8;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 10 25 10 25;
+    -fx-text-fill: #000000;
+    -fx-font-size: 12px;
+    -fx-font-weight:bolder;
+    
+}
+
+
+.btn-reserve-check-in{
+	  -fx-background-color: #f9dcb8;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 10 20 10 20;
+    -fx-font-weight:bolder;
+    -fx-text-fill: #000000;
+    -fx-font-size: 12px;
+	
+}
+.btn-reserve-save:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+    }
+    
+.btn-reserve-check-in:pressed{
+	-fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+.field-reservation-focus:hover{
+	-fx-background-color:#f9dcb8;
+}
+.main-login{
+	 -fx-background:#75baee;
+	 }
+
+.btn-login{
+    -fx-background-color: #fd8093; 
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: #0c0372;
+    -fx-font-weight:bolder;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Arial";
+    -fx-font-size: 13px;
+    -fx-padding: 10 25 10 25;
+ 
+}
+
+.btn-login:pressed{
+	 -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+#main-room-form{
+	-fx-background-color:#D6EAF8;
+}
+.btn-room-add{
+    -fx-background-color: green;
+    -fx-background-radius: 10;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #D6EAF8;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 7 15;
+}
+.btn-room-save:focus{
+	-fx-size:15;
+}
+.btn-add{
+	-fx-background-color: green;
+    -fx-background-radius: 10;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-font-weight: bold;
+    -fx-text-fill: #D6EAF8;
+    -fx-font-size: 14px;
+    -fx-padding: 7 15;
+	
+}
+.update-room-btn{
+	 -fx-background-color: green; 
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: #D6EAF8;
+    -fx-font-weight:bolder;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Arial";
+    -fx-font-size: 13px;
+    -fx-padding: 10 25 10 25;
+}
+.update-room-btn:pressed{
+	 -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+.clear-room-btn{
+	 -fx-background-color: red; 
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: #D6EAF8;
+    -fx-font-weight:bolder;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Arial";
+    -fx-font-size: 13px;
+    -fx-padding: 10 25 10 25;
+}
+.clear-room-btn:pressed{
+	 -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+.room-tf-foucs:hover{
+	-fx-background-color:#dbfff7;
+}
+#main-guest{
+	-fx-background-color:#D6EAF8;
+}
+.btn-guest{
+	 -fx-background-color: #fd8093; 
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: #0c0372;
+    -fx-font-weight:bolder;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Arial";
+    -fx-font-size: 13px;
+    -fx-padding: 10 25 10 25;
+}
+.field-guest-focus:hover{
+	-fx-background-color:#f9dcb8;
+}
+.search-pane{
+	-fx-background-color:#f6e0ce;
+}
+.reserve-list-main{
+	
+}
+.main-room-list-table{
+	-fx-background-color:#D6EAF8;
+}
+#main-admin-pane{
+	-fx-background-color:#D6EAF8;
+}
+#main-receptionist-pane{
+	-fx-background-color:#D6EAF8;
+}
+.search-pane-room-list{
+	-fx-background-color:#F4ECF7;
+}
+.admin-search-pane{
+	-fx-background-color:#F4ECF7;
+}
+.update-pane-room-list{
+	-fx-background-color:#D6EAF8;
+}
+.admin-update-pane{
+	-fx-background-color:#D6EAF8;
+}
+.tv-room-list{
+	-fx-selection-bar: FF002B;
+	 -fx-control-inner-background-alt: #F4ECF7;
+	 -fx-control-inner-background:#D6EAF8;
+}
+.tv-admin{
+	-fx-selection-bar: FF002B;
+	 -fx-control-inner-background-alt: #F4ECF7;
+	 -fx-control-inner-background:#D6EAF8;
+}
+#main-check-out{
+	-fx-background-color:#D6EAF8;
+	-fx-alignment:center;
+	-fx-font-weight:bolder;
+}
+.vbox{
+	
+}
+.room-no-box{
+	-fx-alignment:center;
+	
+}
+.btn-check-out{
+	-fx-background-color:#0c0372;
+	-fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Arial";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 12px;
+    -fx-padding: 10 20 10 20;
+    -fx-font-weight:bolder;
+}
+
+.btn-check-out Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.9) , 1, 0.0 , 0 , 1 );
+}
+.check-out-top-pane{
+	-fx-background-color:#0c0372;
+	-fx-font-weight:bolder;
+	-fx-font-family:Times New Roman;
+	-fx-text-fill:#ffffff;
+	-fx-font-size:16;
+	-fx-padding:15;
+}
+.log-book{
+	
+	-fx-font-weight:bolder;
+	-fx-font-family:Times New Roman;
+	-fx-font-size:20;
+	-fx-text-fill:pink;
+	
+}
+.log-book-table{
+	-fx-selection-bar: FF002B;
+	 -fx-control-inner-background-alt: #F4ECF7;
+	 -fx-control-inner-background:#D6EAF8;
+	 -fx-background-color:#D6EAF8;
+}
+.change-password-title{
+	-fx-font-weight:bolder;
+	-fx-text-fill:pink;
+	-fx-font-family:Times New Roman;
+	-fx-font-size:20;
+}
+.password-label{
+	-fx-font-weight:bolder;
+	-fx-font-family:Times New Roman;
+}
+.guest-list-table{
+	-fx-selection-bar: FF002B;
+	 -fx-control-inner-background-alt: #F4ECF7;
+	 -fx-control-inner-background:#D6EAF8;
+}
+.reserve-list{
+	-fx-selection-bar: FF002B;
+	 -fx-control-inner-background-alt: #F4ECF7;
+	 -fx-control-inner-background:#D6EAF8;
+	
+}
+.reserve-list-main{
+	-fx-selection-bar: FF002B;
+	 -fx-control-inner-background-alt: #F4ECF7;
+	 -fx-control-inner-background:#D6EAF8;
+}
+.tv-check-in-list{
+	-fx-selection-bar: FF002B;
+	 -fx-control-inner-background-alt: #F4ECF7;
+	 -fx-control-inner-background:#D6EAF8;
+}
+ .btn-confirm-payment{
+ 	 -fx-background-color: #f9dcb8;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 10 25 10 25;
+    -fx-text-fill: #000000;
+    -fx-font-size: 12px;
+    -fx-font-weight:bolder;
+ }
+ .main-payment-pane{
+ 	-fx-background-color:#D6EAF8;
+	-fx-font-family:Times New Roman;
+	-fx-text-fill:#505072;
+ }
+ .top-payment-pane{
+ 	-fx-background-color:#0c0372;
+	-fx-font-weight:bolder;
+	-fx-font-family:Times New Roman;
+	-fx-text-fill:#ffffff;
+	-fx-font-size:16;
+	
+ }
+ .password-change-title{
+ 	-fx-text-fill:#ffffff;
+ 	-fx-font-family:Times New Roman;
+ 	-fx-font-weight:bolder;
+ 	-fx-font-size:16;
+ }
+ 
+ .room-info-title{
+ 	-fx-font-weight:bolder;
+	-fx-font-family:Times New Roman;
+	-fx-text-fill:#000000;
+	-fx-font-size:16;
+ }
+ .search-pane-check-in{
+ 	-fx-background-color:#0c0372;
+ 	-fx-text-fill:#D6EAF8;
+ }
+ .check-in-list-title{
+	-fx-font-weight:bolder;
+	-fx-font-family:Times New Roman;
+	-fx-text-fill:#D6EAF8;
+	-fx-font-size:18;
+ }
+ .payment-amount{
+ 	-fx-text-fill:#0c0372;
+ }
+ 
+ .btn-paid{
+ 	-fx-background-color:#0c0372;
+ 	-fx-text-fill:#ffffff;
+ }
+ 
+ .default-color0.chart-bar{
+ 	-fx-bar-fill:blue;
+ }
+ .income-report-title{
+ 	-fx-text-fill:#0c0372;
+ 	-fx-font-weight:bolder;
+ 	-fx-font-family:Times New Roman;
+ 	-fx-font-size:16;
+ }
+ .header-report-pane{
+ 	-fx-background-color:#0c0372;
+ 	-fx-text-fill:#e5e0e3;
+ 	-fx-padding:10;
+
+ }
+ .combo-box {
+    -fx-pref-width: 150;
+}
+.password-style{
+	-fx-pref-width:350;
+}
+.active-label-report{
+	-fx-text-fill:#0c0372;
+	-fx-font-size:18;
+	-fx-font-family:Times New Roman;
+	-fx-font-weight:bolder;
+}
